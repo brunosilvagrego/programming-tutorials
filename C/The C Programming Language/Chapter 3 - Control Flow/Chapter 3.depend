@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1479499958 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1479503558 source:d:\bruno\programacao\the c programming language book programs\chapter 3 - control flow\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

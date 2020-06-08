@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1486659118 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"PrintLib.h"
+
+1486655071 c:\users\bruno\desktop\programação\the c programming language book programs\chapter 5\printlib.h
+
+1486659132 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 5\printlib.c
+	<stdio.h>
+	"PrintLib.h"
+
+1486663362 source:d:\bruno\programacao\the c programming language book programs\chapter 5 - pointers and arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"PrintLib.h"
+
+1486658671 d:\bruno\programacao\the c programming language book programs\chapter 5 - pointers and arrays\printlib.h
+
+1486662732 source:d:\bruno\programacao\the c programming language book programs\chapter 5 - pointers and arrays\printlib.c
+	<stdio.h>
+	"PrintLib.h"
+

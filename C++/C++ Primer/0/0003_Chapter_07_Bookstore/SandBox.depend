@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1587668190 source:c:\users\bruno\desktop\sandbox\main.cpp
+	<iostream>
+	<string>
+	<iterator>
+	<vector>
+	"Sales_data.h"
+
+1584449144 c:\users\bruno\desktop\sandbox\sales_item.h
+	<iostream>
+	<string>
+
+1587666575 c:\users\bruno\desktop\sandbox\sales_data.h
+	<string>
+	<iostream>
+
+1587666794 source:c:\users\bruno\desktop\sandbox\sales_data.cpp
+	<iostream>
+	"Sales_data.h"
+

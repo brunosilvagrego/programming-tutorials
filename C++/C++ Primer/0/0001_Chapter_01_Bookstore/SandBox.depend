@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1584449134 source:c:\users\bruno\desktop\sandbox\main.cpp
+	<iostream>
+	"Sales_item.h"
+
+1584449144 c:\users\bruno\desktop\sandbox\sales_item.h
+	<iostream>
+	<string>
+
+1584449951 source:c:\users\bruno\google drive\computer science\c++ primer programs\bruno grego\bookstore\main.cpp
+	<iostream>
+	"Sales_item.h"
+
+1584449144 c:\users\bruno\google drive\computer science\c++ primer programs\bruno grego\bookstore\sales_item.h
+	<iostream>
+	<string>
+

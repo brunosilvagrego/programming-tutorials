@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1478793496 source:c:\users\bruno\desktop\ctraining\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1478800403 source:c:\users\bruno\desktop\programação\the c programming language book exercises\chapter 1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1485275590 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"MathLib.h"
+	"StringLib.h"
+
+1485273688 c:\users\bruno\desktop\programação\the c programming language book programs\chapter 1\mathlib.h
+
+1485275291 c:\users\bruno\desktop\programação\the c programming language book programs\chapter 1\stringlib.h
+
+1485273688 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 1\mathlib.c
+	"MathLib.h"
+
+1485275660 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 1\stringlib.c
+	"StringLib.h"
+
+1485279654 source:d:\bruno\programacao\the c programming language book programs\chapter 1 - a tutorial introduction\main.c
+	<stdio.h>
+	<stdlib.h>
+	"MathLib.h"
+	"StringLib.h"
+
+1485277288 d:\bruno\programacao\the c programming language book programs\chapter 1 - a tutorial introduction\mathlib.h
+
+1485278891 d:\bruno\programacao\the c programming language book programs\chapter 1 - a tutorial introduction\stringlib.h
+
+1485277288 source:d:\bruno\programacao\the c programming language book programs\chapter 1 - a tutorial introduction\mathlib.c
+	"MathLib.h"
+
+1485279260 source:d:\bruno\programacao\the c programming language book programs\chapter 1 - a tutorial introduction\stringlib.c
+	"StringLib.h"
+

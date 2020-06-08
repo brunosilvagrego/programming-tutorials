@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1486053909 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ConversionLib.h"
+	"StringLib.h"
+
+1486052354 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 2\conversionlib.c
+	<stdio.h>
+	"ConversionLib.h"
+
+1486052797 c:\users\bruno\desktop\programação\the c programming language book programs\chapter 2\conversionlib.h
+
+1486053777 c:\users\bruno\desktop\programação\the c programming language book programs\chapter 2\stringlib.h
+
+1486053777 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 2\stringlib.c
+	<stdio.h>
+	"StringLib.h"
+
+1486055954 source:d:\bruno\programacao\the c programming language book programs\chapter 2 - types, operators and expressions\conversionlib.c
+	<stdio.h>
+	"ConversionLib.h"
+
+1486056397 d:\bruno\programacao\the c programming language book programs\chapter 2 - types, operators and expressions\conversionlib.h
+
+1486057509 source:d:\bruno\programacao\the c programming language book programs\chapter 2 - types, operators and expressions\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ConversionLib.h"
+	"StringLib.h"
+
+1486057377 d:\bruno\programacao\the c programming language book programs\chapter 2 - types, operators and expressions\stringlib.h
+
+1486057377 source:d:\bruno\programacao\the c programming language book programs\chapter 2 - types, operators and expressions\stringlib.c
+	<stdio.h>
+	"StringLib.h"
+

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1486660966 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1486660966 source:c:\users\bruno\desktop\programação\the c programming language book programs\chapter 6 - structures\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1486664566 source:d:\bruno\programacao\the c programming language book programs\chapter 6 - structures\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
