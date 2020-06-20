@@ -7,7 +7,7 @@ else:
    print("Answer:")
    print("False")
 
-print("")
+print()
 
 # Multi-Line Statements
 total = 5 + \
@@ -15,7 +15,7 @@ total = 5 + \
         3
 
 print(total)
-print("")
+print()
 
 # Quotation
 word = 'word'
@@ -26,7 +26,7 @@ made up of multiple lines and sentences."""
 print(word)
 print(sentence)
 print(paragraph)
-print("")
+print()
 
 '''
 This is a multiline
@@ -35,7 +35,7 @@ comment.
 
 # Multiple Statements on a Single Line
 import sys; x = 'foo'; sys.stdout.write(x + '\n')
-print("")
+print()
 
 # Multiple Statement Groups as Suites
 a = 2

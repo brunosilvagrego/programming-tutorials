@@ -6,20 +6,20 @@ name    = "John"     # A string
 print(counter)
 print(miles)
 print(name)
-print("")
+print()
 
 # Multiple Assignment
 a = b = c = 1
 print(a)
 print(b)
 print(c)
-print("")
+print()
 
 a, b, c = 1, 2, "John"
 print(a)
 print(b)
 print(c)
-print("")
+print()
 
 # Delect objects
 del a, b, c
@@ -35,7 +35,7 @@ c = 3.14j   # complex
 print(a)
 print(b)
 print(c)
-print("")
+print()
 
 # Strings
 str = 'Hello World!'
@@ -46,7 +46,7 @@ print(str[2:5])     # Prints characters starting from 3rd to 5th
 print(str[2:])      # Prints string starting from 3rd character
 print(str * 2)      # Prints string two times
 print(str + "TEST") # Prints concatenated string
-print("")
+print()
 
 # Lists
 '''
@@ -62,7 +62,7 @@ print(myList[1:3])        # Prints elements starting from 2nd till 3rd
 print(myList[2:])         # Prints elements starting from 3rd element
 print(tinylist * 3)       # Prints list three times
 print(myList + tinylist)  # Prints concatenated lists
-print("")
+print()
 
 # Tuples
 '''
@@ -78,7 +78,7 @@ print(myTuple[2:4])          # Prints elements starting from 3rd till 4th
 print(myTuple[3:])           # Prints elements starting from 4th element
 print(tinyTuple * 2)         # Prints tuple two times
 print(myTuple + tinyTuple)   # Prints concatenated tuple
-print("")
+print()
 
 # Dictionaries
 '''
@@ -96,7 +96,7 @@ print(dict1[2])        # Prints value for 2 key
 print(dict2)           # Prints complete dictionary
 print(dict2.keys())    # Prints all the keys
 print(dict2.values())  # Prints all the values
-print("")
+print()
 
 # Data Type Conversion
 num_int = 123

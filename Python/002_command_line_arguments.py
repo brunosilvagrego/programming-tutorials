@@ -19,7 +19,7 @@ def main(argv):
          inputfile = arg
       elif opt in ("-o", "--ofile"):
          outputfile = arg
-   print("")
+   print()
    print('Input file:  ', inputfile)
    print('Output file: ', outputfile)
 
