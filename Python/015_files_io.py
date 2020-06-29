@@ -2,7 +2,7 @@ import os
 
 # Output
 '''
-The simplest way to produce output is to is the print() statement which takes zero or more expressions
+The simplest way to produce output is to use the print() statement which takes zero or more expressions
 separated by commas.
 '''
 print("In ", 2020, ", Python is really a great language,", "isn't it?")
@@ -13,9 +13,9 @@ print()
 input() functions read data from keyboard as a string, irrespective of whether it is enclosed with quotes
 ('' or "" ) or not.
 '''
-#x = input("Type something: ")
-#print("Your input: ", x)
-#print()
+x = input("Type something: ")
+print("Your input: ", x)
+print()
 
 # Open a file
 f = open("test.txt", "wb")
@@ -33,15 +33,15 @@ f.write("Python is a great programming language\nto learn in 2020,\nisn't it?")
 f.close()
 
 # Reading a file
-'''
-fileObject.read([count]) -> optional parameter 'count' is the number of bytes to be read from the opened file
-'''
 f = open("test.txt", "r+")
 print("test.txt:")
 print(f.read())
 print()
 f.close()
 
+'''
+fileObject.read([count]) -> optional parameter 'count' is the number of bytes to be read from the opened file
+'''
 # File positions
 f = open("test.txt", "r+")
 print("First 10 bytes in test.txt:")

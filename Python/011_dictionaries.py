@@ -30,7 +30,7 @@ print()
 print("len(dict1) = ", len(dict1))
 print()
 
-# len()
+# str()
 print("str(dict1) = ", str(dict1))
 print()
 

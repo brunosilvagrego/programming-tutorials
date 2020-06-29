@@ -36,7 +36,7 @@ print()
 print(time.strftime("%b %d %Y %H:%M:%S", time.localtime()))
 print()
 
-# time.strftime()
+# time.strptime()
 print(time.strptime("21 06 2020", "%d %m %Y"))
 print()
 

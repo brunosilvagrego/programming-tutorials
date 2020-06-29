@@ -26,7 +26,7 @@ del a, b, c
 
 # Numbers
 '''
-All integers in Python3 are represented as long integers. There is no separate number type as long.
+All integers in Python3 are represented as long integers. There is no separate number type such as long.
 '''
 a = 10      # int
 b = 15.2    # float
@@ -89,7 +89,7 @@ dict1 = {}
 dict1['one'] = "This is one"
 dict1[2] = "This is two"
 
-dict2 = {'name': 'john','code':6734, 'dept': 'sales'}
+dict2 = {'name': 'john','code': 6734, 'dept': 'sales'}
 
 print(dict1['one'])    # Prints value for 'one' key
 print(dict1[2])        # Prints value for 2 key

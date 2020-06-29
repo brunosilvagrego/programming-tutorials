@@ -12,7 +12,7 @@ if (var == 100):
 print()
 
 # Single statement suite
-if (var < 150) : print("var < 150")
+if (var < 150): print("var < 150")
 
 print()
 

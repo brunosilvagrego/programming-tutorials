@@ -24,7 +24,7 @@ print()
 
 # Mathematical Functions #
 '''
-abs() is a built in function whereas fabs() is defined in math module.
+abs() is a built-in function whereas fabs() is defined in math module.
 '''
 # abs()
 print("abs(-45) = ", abs(-45))
