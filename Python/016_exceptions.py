@@ -1,9 +1,9 @@
 import os
 
 '''
-An exception is an event that occurs during the execution of a program and disrupts the normal flow of the program's instructions.
-An exception is a Python object that represents an error.
-When a Python script raises an exception it must handle the exception immediately, otherwise it terminates and quits.
+An exception is an event that occurs during the execution of a program and disrupts the normal flow of the program's
+instructions. An exception is a Python object that represents an error. When a Python script raises an exception it
+must handle the exception immediately, otherwise it terminates and quits.
 '''
 
 # try ... except ... else

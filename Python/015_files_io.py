@@ -1,4 +1,5 @@
 import os
+import time
 
 # Output
 '''
@@ -32,6 +33,8 @@ f = open("test.txt", "w")
 f.write("Python is a great programming language\nto learn in 2020,\nisn't it?")
 f.close()
 
+time.sleep(2)
+
 # Reading a file
 f = open("test.txt", "r+")
 print("test.txt:")
@@ -61,10 +64,12 @@ os.rename("test.txt", "foo.txt")
 os.remove("foo.txt")
 
 # Display the current directory
-os.getcwd()
+print(os.getcwd())
 
 # Create a directory
 os.mkdir("Test")
+
+time.sleep(2)
 
 # Remove a directory
 os.rmdir('Test')

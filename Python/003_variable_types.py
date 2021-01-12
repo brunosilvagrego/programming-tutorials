@@ -53,7 +53,7 @@ print()
 Lists are similar to arrays in C. One of the differences between them is that all the items belonging to a list
 can have different data type.
 '''
-myList = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
+myList = ['abcd', 786, 2.23, 'john', 70.2]
 tinylist = [123, 'john']
 
 print(myList)             # Prints complete list
@@ -67,9 +67,9 @@ print()
 # Tuples
 '''
 Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in
-parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists
+parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists.
 '''
-myTuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+myTuple = ('abcd', 786, 2.23, 'john', 70.2)
 tinyTuple = (123, 'john')
 
 print(myTuple)               # Prints complete tuple
@@ -89,7 +89,7 @@ dict1 = {}
 dict1['one'] = "This is one"
 dict1[2] = "This is two"
 
-dict2 = {'name': 'john','code': 6734, 'dept': 'sales'}
+dict2 = {'name': 'john', 'code': 6734, 'dept': 'sales'}
 
 print(dict1['one'])    # Prints value for 'one' key
 print(dict1[2])        # Prints value for 2 key

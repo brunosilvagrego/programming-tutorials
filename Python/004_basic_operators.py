@@ -92,7 +92,7 @@ print("not(c and d) = ", not(c and d))     # Logical NOT
 print()
 
 # Membership Operators
-l = [1, 2, 3, 4, 5 ]
+l = [1, 2, 3, 4, 5]
 
 if (a in l):
     print("a is available in list l")

@@ -41,6 +41,7 @@ print(getattr(emp1, 'salary'))  # Returns value of 'salary' attribute
 setattr(emp1, 'salary', 7000)   # Set attribute 'salary' at 7000
 emp1.displayEmployee()
 delattr(emp1, 'salary')         # Delete attribute 'salary'
+# emp1.displayEmployee()        # AttributeError: 'Employee' object has no attribute 'salary'
 print()
 
 # Built-In class attributes
@@ -98,7 +99,7 @@ class Parent:
         Parent.parentAttr = attr
 
     def getAttr(self):
-        print("Parent attribute :", Parent.parentAttr)
+        print("Parent attribute:", Parent.parentAttr)
 
     def hello(self):
         print("Hello, I\'m the Parent class")
@@ -141,11 +142,11 @@ class Vector:
     def __str__(self):
         return "Vector (%d, %d)" % (self.a, self.b)
    
-    def __add__(self,other):
+    def __add__(self, other):
         return Vector(self.a + other.a, self.b + other.b)
 
-v1 = Vector(2,10)
-v2 = Vector(5,-2)
+v1 = Vector(2, 10)
+v2 = Vector(5, -2)
 print(v1 + v2)
 print()
 
