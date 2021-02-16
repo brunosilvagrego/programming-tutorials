@@ -1,0 +1,5 @@
+My name is Bruno.
+I am Portuguese.
+And I enjoy programming in Python
+I hold a master's degree in Electronics Engineering.
+And I have plans to become a software developer soon.
