@@ -14,6 +14,7 @@ print()
 # user has a truly unique username, not just a variation on the capitalization
 # of another person’s username.
 car = 'Audi'
+
 print(car == 'audi')
 print(car.lower() == 'audi')
 print()
@@ -28,6 +29,7 @@ print()
 
 # Numerical Comparisons
 age = 23
+
 print(age == 23)
 print(age == 24)
 print(age < 24)
@@ -48,6 +50,7 @@ print()
 
 # Checking Whether a Value Is in a List
 requested_toppings = ['mushrooms', 'onions', 'pineapple']
+
 print('mushrooms' in requested_toppings)
 print('pepperoni' in requested_toppings)
 print()
@@ -115,6 +118,7 @@ print()
 
 # Omitting the else Block
 age = 25
+
 if age < 4:
     price = 0
 elif age < 18:
@@ -129,6 +133,7 @@ print()
 
 # Testing Multiple Conditions
 requested_toppings = ['mushrooms', 'extra cheese']
+
 if 'mushrooms' in requested_toppings:
     print("Adding mushrooms.")
 if 'pepperoni' in requested_toppings:
@@ -153,6 +158,7 @@ print()
 
 # Checking That a List Is Not Empty
 requested_toppings = []
+
 if requested_toppings:
     for requested_topping in requested_toppings:
         print("Adding " + requested_topping + ".")

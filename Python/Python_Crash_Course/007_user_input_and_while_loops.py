@@ -96,6 +96,7 @@ while number < user_number:
     
     if number % 2 == 0:
         continue
+
     print(number)
 
 print()
@@ -141,7 +142,7 @@ while polling_active:
     responses[name] = response
 
     # Find out if anyone else is going to take the poll.
-    repeat = input("Would you like to let another person respond? (yes/ no) ")
+    repeat = input("Would you like to let another person respond? (yes/no) ")
     if repeat == 'no':
         polling_active = False
 
