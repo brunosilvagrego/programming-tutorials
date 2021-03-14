@@ -1,13 +1,17 @@
 import os
 import pygame
+from pygame.sprite import Sprite
 
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
-class Ship():
+class Ship(Sprite):
     """A class to manage the ship behavior."""
 
     def __init__(self, ai_settings, screen):
         """Initialize the ship and set its starting position."""
+        # Inherit from Sprite
+        super().__init__()
+
         self.ai_settings = ai_settings
         self.screen = screen
 
@@ -52,3 +56,7 @@ class Ship():
     def blitme(self):
         """Draw the ship at its current location."""
         self.screen.blit(self.image, self.rect)
+
+    def center_ship(self):
+        """Center the ship on the screen."""
+        self.center = self.screen_rect.centerx
