@@ -1,1 +1,17 @@
 Python/.vscode
+.installed.cfg
+*.pyc
+*.pyo
+*.sqlite3
+bin
+develop-eggs
+build
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+lib
+lib64
+share
+*env.cfg

@@ -1,0 +1,48 @@
+# Installing virtualenv:
+sudo apt-get install python3-venv
+
+# Create a virtual environment:
+python3 -m venv <name>
+e.g.: python3 -m venv ll_env
+
+# Activating the Virtual Environment:
+source <name>/bin/activate
+e.g.: source ll_env/bin/activate
+
+# Installing Django in the Virtual Environment:
+pip3 install Django
+
+# Creating a Project in Django:
+django-admin startproject <name> .
+e.g.: django-admin startproject learning_log .
+
+# Creating the Database:
+python manage.py migrate
+
+# Viewing the Project:
+python manage.py runserver
+
+(On a web browser)
+http://localhost:8000/
+OR
+http://127.0.0.1:8000/
+
+# Starting an App:
+python manage.py startapp <name>
+e.g.: python manage.py startapp learning_logs
+
+# Activating Models:
+python manage.py makemigrations <name>
+e.g.: python manage.py makemigrations learning_logs
+python manage.py migrate
+
+# Setting Up a Superuser:
+python manage.py createsuperuser
+
+(Login on a web browser)
+http://localhost:8000/admin/
+
+# Django Shell:
+python manage.py shell
+(Ctrl+D to exit shell)
+
