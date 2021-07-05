@@ -5,9 +5,12 @@ sudo apt-get install python3-venv
 python3 -m venv <name>
 e.g.: python3 -m venv ll_env
 
-# Activating the Virtual Environment:
+# Activate the Virtual Environment:
 source <name>/bin/activate
 e.g.: source ll_env/bin/activate
+
+# Deactivate the Virtual Environment:
+(ll_env)learning_log$ deactivate
 
 # Installing Django in the Virtual Environment:
 pip3 install Django
