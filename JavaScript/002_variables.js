@@ -48,12 +48,12 @@ console.log();
    letter of each subsequent word is capitalized.
 */
 
-/* Variable declarations */
+/* Variables declaration */
 var studlyCapVar;
 var properCamelCase;
 var titleCaseOver;
 
-/* Variable assignments */
+/* Variables assignment */
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;

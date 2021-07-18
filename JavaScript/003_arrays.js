@@ -20,7 +20,7 @@ console.log(myArray[1][1]);
 console.log();
 
 /* Change array value */
-var myArray = [18,64,99];
+var myArray = [18, 64, 99];
 console.log(myArray);
 
 myArray[1] = 45;

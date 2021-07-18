@@ -101,13 +101,13 @@ console.log();
 /* Simple queue in JavaScript */
 function nextInLine(arr, item) {
     arr.push(item);
-    item= arr.shift();
+    item = arr.shift();
 
     return item;   
 }
 
-var testArr = [1,2,3,4,5];
-     
+var testArr = [1, 2, 3, 4, 5];
+
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
